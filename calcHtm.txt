@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>calculator</title>
+    <link type="text/css" rel="stylesheet" href="calc.css">
+</head>
+<header>
+    <h1 class="header" align="center">
+        <u>calculator</u> <br></h1>
+        <div class="logo"><img src="https://upload.wikimedia.org/wikipedia/commons/7/71/V_logo_noir.png" width="350" height="90"></div>
+    </header>
+    <body>
+        <table>
+        <tr>
+        <th colspan="4">SIMPLE CALCULATOR</th>
+        </tr>
+        <tr>
+        <td>value1</td>
+        <td><input type="number" id="value1" value="0"/></td>
+        </tr><tr>
+        <td>value2</td>
+        <td><input type="number" id="value2" value="0"/></td>
+        </tr>
+        <tr>
+        <td colspan="2">
+        <input type="button" value="   Addition(+)    " id="add" onclick="calc(this.id)"/>
+        </td></tr><tr>
+        <td colspan="2">
+        <input type="button" value=" Substraction(-)  " id="sub" onclick="calc(this.id)"/>
+        </td></tr><tr>
+        <td colspan="2">
+        <input type="button" value="Multiplicatiion(*)" id="mul" onclick="calc(this.id)"/>
+        </td></tr><tr>
+        <td colspan="2">
+        <input type="button" value="    Division(/)   " id="div" onclick="calc(this.id)"/>
+        </td>
+        </tr>
+        <tr>
+        <td>Answer:</td>
+        <td><input type="number" id="answer" value="" disabled/></td></tr><tr>
+        <td colspan="2"><input type="button" value="CLEAR ALL" onclick="cls()"/></td>
+        </tr>
+        </table>
+        <footer>
+            <h1 class="footh2" align="center">
+                <u>Thank_You For Visiting</u> <br></h1>
+            </footer>
+        <script type="text/javascript" src="calc.js"></script>
+        </body>
+        </html>
